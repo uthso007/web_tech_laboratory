@@ -1,0 +1,285 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* ============navigation================== */
+.nav1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #643434;
+    height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav1-sec1 {
+    margin-top: 5px;
+    padding-left: 25px;
+}
+
+.nav1-sec1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px 5px;
+}
+
+.nav1-sec2 {
+    margin-top: 5px;
+    margin-left: 440px;
+    text-decoration: none;
+}
+
+.nav1-sec2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px 5px;
+}
+
+.nav1 a:hover {
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 12px;
+    background-color: rgb(253, 255, 252);
+    border-radius: 10px;
+    color: black;
+}
+/* =======================nav2====================== */
+.nav2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(223, 232, 232);
+    margin-bottom: 0 px;
+    height: 40px;
+
+}
+
+.nav2 img {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.nav2-sec {
+    padding-top: 12px;
+    margin-left: 400px;
+}
+
+.nav2-sec a {
+    text-decoration: none;
+    padding: 4px 18px;
+    font-size: 11px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.nav2-sec a:hover {
+    background-color: rgb(47, 164, 182);
+    border-radius: 10px;
+    transition: 0.4s;
+    transform: scale(1.02);
+}
+
+/* =======================heading section============== */
+
+.head {
+    background-image: url(/img/backgroun.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1300px;
+}
+
+.head-sec {
+    margin-left: 570px;
+    padding-top: 180px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 7px;
+    color: white;
+}
+.head-sec h1{
+    font-size: 45px;
+}
+.head-sec button {
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(84, 17, 107);
+}
+
+.head-sec button:hover {
+    background-color: green;
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* =====================product section=============== */
+
+.product {
+    width: 90%;
+    margin: 80px auto;
+}
+
+.product h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(2, 50, 108);
+    font-weight: bold;
+
+}
+
+.product marquee {
+    color: rgb(211, 54, 80);
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.product img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 65px;
+}
+
+.card {
+    width: 200px;
+    background-color: rgb(225, 221, 221);
+    padding: 0px 6px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px gray;
+    padding-bottom: 10px;
+}
+
+.card h3 {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card:hover {
+    background-color: rgb(204, 142, 142);
+    transition: 0.7s;
+    transform: scale(1.04);
+    box-shadow: 6px 6px 6px gray;
+    cursor: pointer;
+}
+
+/* =================order section================== */
+
+.sec3 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #002347;
+    padding: 70px 110px;
+    margin-top: 150px;
+}
+
+.register1 {
+    padding-top: 90px;
+    padding-left: 30px;
+    width: 500px;
+}
+
+.register1 h1 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.register-pera p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.block {
+    display: flex;
+}
+
+.block1 {
+    border: 2px solid rgb(239, 233, 233);
+    padding: 16px 30px;
+    margin: 55px 8px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #334f6c;
+}
+.block1:hover
+{
+    transition: 0.5s;
+    transform: scale(1.05);
+    background-color: #1c6ab8;
+    cursor: pointer;
+}
+
+.register2 {
+    background-color: white;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.register2 input {
+    border: none;
+    background-color: rgb(235, 227, 227);
+    margin: 8px 0px 10px 0px;
+}
+
+.button {
+    padding: 5px 63px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    color: rgb(246, 245, 245);
+    background-color: rgb(40, 10, 15);
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(61, 123, 25);
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* ===================end section================= */
+.end {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    padding-top: 70px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 4px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
